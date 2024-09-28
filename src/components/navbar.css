@@ -4,13 +4,14 @@ body {
     margin: 0;
     font-family: Poppins, sans-serif;
 }
-.logo{
+.logo_nav{
     align-items: center;
     text-align: center;
+
 }
 .navbar {
     display: flex;
-    gap: 10%;
+    gap: 9%;
     background-color: #057588;
     padding: 25px 20px;
 }
@@ -32,7 +33,7 @@ body {
     margin-left: 20%;
 }
 
-.links {
+.links_nav {
     cursor: pointer;
     padding: 5%;
     text-align: center;
@@ -43,11 +44,11 @@ body {
     font-size: 1.1rem;
     transition: all 300ms ease-in-out;
 }
-.links a{
+.links_nav a{
     text-decoration: none;
     color:inherit; 
 }
-.links:hover{
+.links_nav:hover{
     color: #f18f16;
 }
 

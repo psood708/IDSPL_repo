@@ -10,6 +10,7 @@ import Team from './pages/Team';
 import Career from './pages/Career'
 import { Query } from './pages/Query'
 import Gallery from './pages/Gallery'
+import UnderConstruction from './pages/underConstruction'
 import './App.css';
 
 const App = () => {
@@ -23,8 +24,8 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/careers" element={<Career />} />
           <Route path="/team" element={<Team />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/query" element={<Query/>}/>
+          <Route path="/gallery" element={<UnderConstruction />} />
+          <Route path="/query" element={<UnderConstruction/>}/>
         </Routes>
         <Footer />
       </div>

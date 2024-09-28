@@ -1,0 +1,153 @@
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.team {
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  color: #999;
+  background-color: #fff;
+}
+
+.team h1,
+.team h2,
+.team h3,
+.team h4,
+.team h5,
+.team h6 {
+  margin: 0 0 20px 0;
+  text-transform: none;
+  color: #057588;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.tmLink:link,
+.tmLink:active,
+.tmLink:visited {
+  color: rgba(255, 255, 255, 1);
+}
+
+.tmLink:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.gray {
+  color: #a5a5a5;
+}
+
+.team {
+  margin: 40px;
+}
+
+.team-member {
+  margin: 15px;
+  padding: 0;
+}
+
+.team-member figure {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.team-member figure img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.team-member figcaption p {
+  font-size: 16px;
+}
+
+.team-member figcaption ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.team-member figcaption ul {
+  visibility: visible;
+  transition: all 0.1s ease-in-out;
+}
+
+.team-member figcaption ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.team-member h4 {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.team-member figcaption {
+  padding: 50px;
+  color: transparent;
+  background-color: transparent;
+  position: absolute;
+  z-index: 996;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption {
+  visibility: visible;
+  color: #fff;
+  background: rgba(241, 143, 22, 0.9);
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption ul li a:hover {
+  color: rgba(49, 49, 49, 0.97);
+}
+
+.team-member figure img {
+  transform: scale(1) rotate(0) translateY(0);
+  transition: all 0.4s ease-in-out;
+}
+
+.team-member figure:hover img {
+  transform: scale(1.1) rotate(1deg) translateY(12px);
+  transition: all 0.4s ease-in-out;
+}
+
+/* Flexbox layout for the team section */
+.team .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align images to start and let them flow naturally */
+    gap: 15px; /* Space between the items */
+  }
+  
+  .team-member {
+    flex: 1 1 auto; /* Let images take up natural width */
+    max-width: 300px; /* Optional: Control maximum size for each image */
+    box-sizing: border-box;
+  }
+  
+  .team-member:nth-child(n + 4) { /* Target every 4th item */
+    margin-top: 20px; /* Add a vertical gap after every 3 items */
+  }
+  
+  @media (max-width: 768px) {
+    .team-member {
+      flex: 1 1 auto;
+      max-width: 45%; /* Adjust max size for tablets */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .team-member {
+      flex: 1 1 100%; /* Take full width on small screens */
+    }
+  }

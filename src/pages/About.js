@@ -65,7 +65,7 @@ const About = () => {
         partner</span> who plays a critical role in our clients’ success. We strive to <span className="orange">
         innovate and adapt to the ever-changing needs of the industry</span>, ensuring that we remain at the
         forefront of KPO services.
-      </div>
+      </div> 
       <div className="vision-heading">Our Vision</div>
     </section>
 

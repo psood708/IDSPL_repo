@@ -1,0 +1,58 @@
+/* General reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Main container to center the content */
+  .construction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f8b549, #d4ecef); /* Color gradient */
+  }
+  
+  /* Content box styling */
+  .construction-content {
+    text-align: center;
+    background-color: #fff; /* White background for content */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* Title styling */
+  .construction-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #f18f16; /* Orange title color */
+    margin-bottom: 20px;
+  }
+  
+  /* Message styling */
+  .construction-message {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555; /* Soft gray for text */
+  }
+  
+  /* Icon styling */
+  .construction-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styling */
+  .construction-footer {
+    font-size: 1rem;
+    color: #888; /* Lighter gray for footer */
+  }
+  

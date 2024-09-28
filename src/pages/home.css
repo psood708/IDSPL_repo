@@ -30,6 +30,7 @@ body {
 .buttons{
     text-align: center;
     margin-top: 4%;
+    text-decoration: none;
 }
 .but{
     background-color: #057588;
@@ -249,9 +250,9 @@ body {
     width: 50%;
 }
 /* Why us begins here */
-/* .why-us{
+.why_us{
     background:url("../images/whyus.png");
-} */
+}
 .why-main{
     display: flex;
     flex-direction: column;

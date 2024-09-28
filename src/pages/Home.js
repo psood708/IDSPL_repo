@@ -40,12 +40,12 @@ const Home = () => {
 
         <div className="buttons">
           <a href="#">
-            <div className="but but1" style={{ backgroundColor: "#cbe6eb", color: "#057588" }}>
-              <Link to="/about">About <span className="bold">us</span></Link>
-            </div>
+          <Link to="/about"><div className="but but1" style={{ backgroundColor: "#cbe6eb", color: "#057588" }}>
+              About <span className="bold">us</span>
+            </div></Link>
           </a>
           <a href="#">
-            <div className="but but2"><Link to="/services">Services</Link></div>
+          <Link to="/services"> <div className="but but2">Services</div></Link>
           </a>
         </div>
 
@@ -164,9 +164,9 @@ const Home = () => {
             </div>
           </div>
         </section>
-      </section>
+      </section> 
 
-      <section className="why-us">
+      <section className="why_us">
         <div className="why-main">
           <div className="why-sub">WHY US</div>
           <div className="why-main-text">
