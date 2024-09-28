@@ -1,0 +1,76 @@
+/* Import your font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0.600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Body styles */
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  /* background: #e69e47; Or #121 for a darker background */
+}
+
+/* Gallery header styles */
+.gall-head {
+  font-size: 3.4rem;
+  text-align: center;
+  padding-top: 2%;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Horizontal section styles */
+section.horizontal {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Pin wrap and animation wrap styles */
+section.horizontal .pin-wrap,
+section.horizontal .animation-wrap {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+}
+
+/* Animation wrap styles */
+section.horizontal .animation-wrap {
+  gap: 5em;
+  padding: 5em;
+}
+
+/* Item styles */
+section.horizontal .item {
+  position: relative;
+  padding: 0px;
+  height: calc(100vh - 10em);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.7;
+  user-select: none;
+  width: max-content;
+  border-radius: 36px;
+}
+
+/* Image styles within items */
+.item img {
+  border-radius: 9px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+/* Media query for screens under 500px */
+@media only screen and (max-width: 500px) {
+  section.horizontal .pin-wrap,
+  section.horizontal .animation-wrap {
+    flex-direction: column;
+    height: inherit;
+  }
+
+  section.horizontal .item {
+    justify-content: center;
+    margin: 0 !important;
+  }
+}

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.About-sec {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(rgba(5, 117, 136, 0.7), rgba(5, 117, 136, 0.7)), url('../images/main.png') no-repeat center center/cover;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 2%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.left-section,
+.right-section {
+    margin-bottom: 10px;
+}
+
+.left-section {
+
+    align-content: center;
+    position: relative;
+    margin-right: 10px;
+    max-width: 100%;
+    flex: 1;
+}
+
+.right-section {
+    align-items: center;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.main-heading {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #f18f16;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 8%;
+    margin-top: 10%;
+}
+
+.main-text {
+    align-self: right;
+
+    font-size: 1.8rem;
+    max-width: 80%;
+    margin-bottom: 4%;
+}
+
+.main-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Creates two equal-width columns */
+    gap: 40px;
+}
+
+.block {
+    width: 425px;
+    height: 150px;
+
+}
+
+.block .first {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: white;
+    align-items: center;
+    transition: all 500ms ease-in;
+}
+
+.block .first:hover {
+    color: #f18f16;
+}
+
+.block h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #f18f16;
+    align-items: center;
+}
+
+
+/* vision starts now */
+.vision {
+    display: flex;
+    flex-direction: row;
+    background: url('../images/vision.png') no-repeat center center/cover;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 3%;
+    padding-top: 7%;
+    padding-bottom: 6%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.vision-heading {
+    color: #057588;
+    font-size: 4.5rem;
+    font-weight: 700;
+    padding-top: 4%;
+    width: 100%;
+    margin-left: 11%;
+}
+
+.vision-text {
+    color: #057588;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-left: 2%;
+}
+
+.orange {
+    color: #eba856;
+    font-weight: 400;
+    transition: all 200ms ease-in;
+}
+
+.orange:hover {
+    color: #f18c10;
+
+}
+
+/* why us section subarts here  */
+.why-us {
+    display: flex;
+    flex-direction: column;
+    background: url('../images/why us.png') no-repeat center center/cover;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 2%;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: center;
+}
+
+.why-us .wfirst {
+    color: white;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    padding: 2%;
+}
+
+.why-us .wsub-heading {
+    color: rgba(255, 255, 255, 0.7);
+    justify-content: center;
+    text-align: center;
+}
+
+.why-us .wheading {
+    text-align: center;
+    font-size: 5.5rem;
+    font-weight: 700;
+    color: #f18f16;
+
+
+}
+
+.why-us .wsecond {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    padding: 3%;
+}
+
+.wblock {
+    background-color: rgba(241, 143, 22, 0.7);
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 220px;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 3%;
+    border-radius: 10px;
+    transition: all 200ms ease-in;
+}
+
+.frow,
+.srow {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+}
+
+.frow {
+    gap: 30px;
+    width: 100%;
+
+}
+
+.srow {
+    gap: 30px;
+    width: 80%;
+
+}
+.wblock .fst{
+    font-size: 4rem;
+    text-align: left;
+}
+.wblock .snd{
+    padding-top:15%;
+    font-size: 2.8rem;
+    text-align: right;
+}
