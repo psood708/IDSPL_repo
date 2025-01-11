@@ -1,16 +1,16 @@
 import React from "react";
 import "./home.css"; // Include your CSS
-import img1 from "../images/WhatsApp Image 2023-07-12 at 12.21.19 PM (2).jpeg";
-import img2 from "../images/IMG_6767.jpg"
-import img3 from "../images/IMG_3355.jpg"
-import img4 from "../images/IMG_0679.jpg"
-import img5 from "../images/IMG_6544.jpg"
+import img1 from "../images/home_1.jpg";
+import img2 from "../images/home_2.png"
+import img3 from "../images/home_3.jpg"
+import img4 from "../images/home_4.jpg"
+import img5 from "../images/home_5.png"
 import img6 from "../images/IMG_2235.jpg"
 import img7 from "../images/IMG_6736.jpg"
-import img8 from "../images/IMG_2230.jpg"
+import img8 from "../images/home_6.jpg"
 import img9 from "../images/389ec91c-01d7-4ac8-8caa-fb5a81fbac17.jfif"
-import img10 from "../images/IMG_2175.jpg"
-import img11 from "../images/04-THEFIRST.jpg"
+import img10 from "../images/home_7.png"
+import img11 from "../images/04-THEFIRST.jpg" 
 import img12 from "../images/IMG_0680.jpg" 
 import img13 from "../images/IMG_0793.jpg"
 import { Link } from "react-router-dom";
@@ -57,10 +57,10 @@ const Home = () => {
             <img src={img2} alt="im2" />
           </div>
           <div className="im">
-            <img src={img3} alt="im3" />
+            <img style={{ objectPosition: "center" }} src={img3} alt="im3" />
           </div>
           <div className="im">
-            <img src={img4} alt="im4" />
+            <img  style={{ objectPosition: "center" }} src={img4} alt="im4" />
           </div>
         </div>
       </section>
@@ -111,7 +111,7 @@ const Home = () => {
 
 
               <div className="give-grid-links">
-                <img style={{ objectPosition: "top" }} src={img8} alt="Service 3" />
+                <img style={{ objectPosition: "bottom" }} src={img8} alt="Service 3" />
               </div>
               <div className="give-grid-links">
                 <img
@@ -138,7 +138,7 @@ const Home = () => {
         <section className="what">
           <div className="sec">
             <div className="sec-img">
-              <img style={{ objectPosition: "top" }} src={img10} alt="Help 1" />
+              <img style={{ objectPosition: "bottom" }} src={img10} alt="Help 1" />
             </div>
             <div className="sec-text">
               Delivering exceptional <span className="orange">KPO solutions </span>with a focus on integrity and

@@ -5,8 +5,10 @@ body {
     font-family: Poppins, sans-serif;
 }
 .logo_nav{
-    align-items: center;
-    text-align: center;
+    
+    
+    width: auto;
+    height: auto;
 
 }
 .navbar {

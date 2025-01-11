@@ -1,15 +1,20 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 import img1 from "../images/IMG_6501.jpg"
-import img2 from "../images/IMG_6537.jpg"
-import img3 from  "../images/IMG_6534.jpg"
+import img2 from "../images/IMG_6534.jpg"
+import img3 from  "../images/gaurav.png"
+import img4 from "../images/jyoti.png"
+import img5 from "../images/khyati.png"
+import img6 from "../images/nupur.png"
+import img7 from "../images/kangana.png"
+import img8 from "../images/anjali.png"
 import "./team.css"
 const teamMembers = [
   {
     name: "Kirti Patel",
     position: "Managing Director",
     imgSrc: img1,
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.",
+    description: "Kirti Patel is a highly accomplished and visionary leader, renowned for her exceptional ability to drive significant growth within organizations. As the Managing Director at Integrity Data Services Private Limited, Kirti oversees business consulting, development, financial management, operational strategies, and the overall strategic planning of the company. Additionally, she is the founder of KTP Consulting, a firm with over two decades of experience in delivering consulting services. With hands-on expertise in Data Analysis, Data Management, Bookkeeping, Payroll, and Back-office support services, Kirti brings a wealth of practical knowledge to her roles. She holds degrees in Bachelor of Science and Bachelor of Law from Gujarat University. Kirti's leadership is marked by a commitment to excellence and a strategic approach that fosters sustained success.",
   },
   {
     name: "Trupal Patel",
@@ -26,31 +31,31 @@ const teamMembers = [
   {
     name: "Jyoti Rajpal",
     position: "Senior Manager",
-    imgSrc: img3,
+    imgSrc: img4,
     description: "Neque minima ea, a praesentium saepe nihil maxime quod esse numquam explicabo eligendi.",
   },
   {
     name: "Khyati Gopani",
     position: "Manager",
-    imgSrc: img3,
+    imgSrc: img5,
     description: "Neque minima ea, a praesentium saepe nihil maxime quod esse numquam explicabo eligendi.",
   },
   {
     name: "Nupur Shah",
     position: "Company Secretary",
-    imgSrc: img3,
+    imgSrc: img6,
     description: "Neque minima ea, a praesentium saepe nihil maxime quod esse numquam explicabo eligendi.",
   },
   {
     name: "Kangana Trivedi",
     position: "Senior Search Analyst",
-    imgSrc: img3,
+    imgSrc: img7,
     description: "Neque minima ea, a praesentium saepe nihil maxime quod esse numquam explicabo eligendi.",
   },
   {
     name: "Anjali Shah",
     position: "Analyst",
-    imgSrc: img3,
+    imgSrc: img8,
     description: "Temporibus dolor, quisquam consectetur molestias, veniam voluptatum. Beatae alias omnis totam.",
   },
 ];
@@ -58,14 +63,15 @@ const teamMembers = [
 const TeamSection = () => {
   return (
     <section id="team" className="team content-section">
-      <div className="container">
-        <div className="row text-center">
+       <div className="row text-center" style = {{'margin-left' :'30%'}} >
           <div className="col-md-12">
             <h2 style={{ fontSize: "5.4rem", fontWeight: "700", color: "#f18f16" }}>Our Team</h2>
             <h3 className="caption gray">Meet the people who make awesome stuffs</h3>
           </div>
         </div>
-        <div className="row">
+      <div className="container">
+       
+        <div className="row1">
           {teamMembers.map((member, index) => (
             <div className="col-md-4" key={index}>
               <div className="team-member">
@@ -92,7 +98,7 @@ const TeamSection = () => {
                     </ul>
                   </figcaption>
                 </figure>
-                <h4>{member.name}</h4>
+                <h4 style={{fontSize:"1.7rem"}}>{member.name}</h4>
                 <p>{member.position}</p>
               </div>
             </div>

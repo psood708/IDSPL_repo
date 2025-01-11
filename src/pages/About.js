@@ -76,7 +76,7 @@ const About = () => {
       </div>
       <div className="wsecond">
         <div className="frow">
-          <div className="wblock">
+          <div className="wblock" style={{ backgroundColor: 'rgba(241, 143, 22, 0.7)' }}>
             <div className="fst">
               24/7
             </div>
@@ -88,21 +88,24 @@ const About = () => {
             <div className="fst">
               Commitment
             </div>
-            <div className="snd" style={{ paddingTop: '9%' }}>
+            <div className="snd" style={{ paddingTop: '8%' }}>
               to Excellence
             </div>
           </div>
+
+
           <div className="wblock" style={{ backgroundColor: 'rgba(229, 244, 210, 0.8)' }}>
             <div className="fst" style={{ fontSize: '3.4rem' }}>
               Integrity
             </div>
-            <div className="snd" style={{ paddingTop: '20%' }}>
+            <div className="snd" style={{ paddingTop: '9%' }}>
               at Forefront
             </div>
           </div>
+        
         </div>
         <div className="srow">
-          <div className="wblock" style={{ backgroundColor: 'rgba(161, 233, 239, 0.6)' }}>
+          <div className="wblock twn" style={{ backgroundColor: 'rgba(161, 233, 239, 0.6)' }}>
             <div className="fst">
               20+ Years
             </div>
